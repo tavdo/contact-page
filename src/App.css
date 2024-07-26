@@ -1,0 +1,48 @@
+.App {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  width: 100vw;
+  height: 100vh;
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.437); 
+  backdrop-filter: 5px;
+  border-radius: 15px;
+  width: 500px;
+  height: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px; 
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; 
+  font-size: 1.5rem;
+}
+
+.contact-item svg {
+  font-size: 2rem; 
+  margin-right: 10px; 
+}
+
+.map iframe {
+border: solid rgb(255, 255, 255) 5px;
+border-radius: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+}
