@@ -1,5 +1,6 @@
 .App {
-  background-color: rgb(255, 255, 255);
+  background-image: url(assets/back.jpg);
+  background-size: cover;
   display: flex;
   justify-content: space-around;
   align-items: center; 
@@ -41,7 +42,7 @@ h1 {
 }
 
 .map iframe {
-border: solid rgb(255, 255, 255) 5px;
+border: solid rgb(255, 255, 255) 10px;
 border-radius: 20px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 
